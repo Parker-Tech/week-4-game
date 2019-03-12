@@ -5,9 +5,14 @@
 .character-img {
   max-width: 100%;
   height: auto;
+  max-height: 250px;
   /* margin: 0 auto;  I want this to center the img to the colum */
 }
 
 .row h1 {
   margin-bottom: 20px;
+}
+
+#statBar {
+  max-width: 500px;
 }

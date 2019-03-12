@@ -24,39 +24,51 @@
   </div>
   <div class="container">
     <div class="row justify-content-center">
-      <h1>Choose Your Champion!</h1>
+      <h1 id="yourChampion">Choose Your Champion!</h1>
     </div>
-    <div class="row justify-content-center set-width">
+    <!-- firstStage is where you pick your character as well as where your character will stay for the rest of the game -->
+    <div class="row justify-content-center set-width" id ="firstStage">
       <div class="col-3">
-        <img src="assets/images/obiwan.jpg" class="character-img img-fluid mx-auto" value="obi-wan" alt="Image of the character"> 
+        <img src="assets/images/obiwan.jpg" class="character-img img-fluid mx-auto" id="obiwan" value="obiwan" alt="Image of the character"> 
         <div class="caption"><p class="hero-name text-center">Obi-Wan Kenobi</p></div> 
       </div>
       <div class="col-3">
-        <img src="assets/images/anakinSkywalker.jpg" class="character-img img-fluid mx-auto" value="anakin" alt="Image of the character">
+        <img src="assets/images/anakin.jpg" class="character-img img-fluid mx-auto" id="anakin" value="anakin" alt="Image of the character">
         <div class="caption"><p class="hero-name text-center">Anakin Skywalker</p></div>
       </div>
       <div class="col-3">
-        <img src="assets/images/Qui-GonJinn.jpg" class="character-img img-fluid mx-auto" value="qui-gon" alt="Image of the character">
+        <img src="assets/images/quigon.jpg" class="character-img img-fluid mx-auto" id="quigon" value="quigon" alt="Image of the character">
         <div class="caption"><p class="hero-name text-center">Qui-Gon Jinn</p></div>
       </div>
       <div class="col-3">
-        <img src="assets/images/sithlordJarJar.jpg" class="character-img img-fluid mx-auto" value="jarjar" alt="Image of the character">  
+        <img src="assets/images/jarjar.jpg" class="character-img img-fluid mx-auto" id="jarjar" value="jarjar" alt="Image of the character">  
         <div class="caption"><p class="hero-name text-center">Jar Jar Binks</p></div>
       </div>
+    </div>
+    <div class="row justify-content-center mx-auto" id="statBar">
+      <div class="col-4">
+        <p class="hero-name text-center" id="statBarName"></p>  
+      </div>
+      <div class="col-4">
+        <p class="text-center" id="statBarHealth"></p>
+      </div>
+      <!-- <div class="col-2">
+        <p class="text-center" id=""></p>
+      </div> -->
     </div>
     <hr class="my-4"> 
     <div class="row justify-content-center">
       <h1 id="theseAreYourEnemiesText"></h1><!-- These are Your Enemies Now! -->
     </div>
-    <div class="row">
-      <div id="enemyPortrait1"class="col-3">
-        
+    <div class="row justify-content-center">
+      <div class="col-3" id="enemyBar1">
+
       </div>
-      <div id="enemyPortrait2"class="col-3">
-        
+      <div class="col-3" id="enemyBar2">
+
       </div>
-      <div id="enemyPortrait3"class="col-3">
-        
+      <div class="col-3" id="enemyBar3">
+
       </div>
     </div>
   </div>
