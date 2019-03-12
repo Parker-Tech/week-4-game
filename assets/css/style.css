@@ -6,7 +6,6 @@
   max-width: 100%;
   height: auto;
   max-height: 250px;
-  /* margin: 0 auto;  I want this to center the img to the colum */
 }
 
 .row h1 {
@@ -17,7 +16,16 @@
   max-width: 500px;
 }
 
-#youLoseImg {
-  object-fit: fill;
-  margin: auto;
+#combatLog {
+  height: 500px;
+  width: 300px;
+  background: rgba(233, 236, 239, 70);
+  position: fixed;
+  right: 20px;
+  top: 50px;
+  overflow: hidden;
+}
+
+#combatLog h2, p {
+  margin: 5px;
 }
