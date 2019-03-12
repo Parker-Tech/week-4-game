@@ -16,3 +16,8 @@
 #statBar {
   max-width: 500px;
 }
+
+#youLoseImg {
+  object-fit: fill;
+  margin: auto;
+}
